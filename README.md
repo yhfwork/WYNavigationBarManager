@@ -1,6 +1,9 @@
 # WYNavigationBarManager
 - NavigationBar管理器，可实现NavigationBar全透明，底色渐变，底色突变，反转渐变的功能。
 
+# cocoapods使用方法
+- pod 'WYNavigationBarManager'
+
 # 使用方法
 - 全透明配置
 - 

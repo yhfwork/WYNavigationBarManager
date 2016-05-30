@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C8AF8A1CFBD4A700D8B028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AF891CFBD4A700D8B028 /* main.m */; };
+		06C8AF931CFBD4A700D8B028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C8AF911CFBD4A700D8B028 /* Main.storyboard */; };
+		06C8AF951CFBD4A700D8B028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C8AF941CFBD4A700D8B028 /* Assets.xcassets */; };
+		06C8AF981CFBD4A700D8B028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C8AF961CFBD4A700D8B028 /* LaunchScreen.storyboard */; };
+		06C8AFA31CFBD4A800D8B028 /* WYNavigationBarManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFA21CFBD4A800D8B028 /* WYNavigationBarManagerTests.m */; };
+		06C8AFAE1CFBD4A800D8B028 /* WYNavigationBarManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFAD1CFBD4A800D8B028 /* WYNavigationBarManagerUITests.m */; };
+		06C8AFCB1CFBE87C00D8B028 /* headImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C8AFCA1CFBE87C00D8B028 /* headImage.png */; };
+		06C8AFE31CFC283500D8B028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFD41CFC283500D8B028 /* AppDelegate.m */; };
+		06C8AFE41CFC283500D8B028 /* GradientTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFD71CFC283500D8B028 /* GradientTableViewController.m */; };
+		06C8AFE51CFC283500D8B028 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFD91CFC283500D8B028 /* MenuViewController.m */; };
+		06C8AFE61CFC283500D8B028 /* MutationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFDB1CFC283500D8B028 /* MutationTableViewController.m */; };
+		06C8AFE71CFC283500D8B028 /* ReversalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFDD1CFC283500D8B028 /* ReversalTableViewController.m */; };
+		06C8AFE81CFC283500D8B028 /* TranslateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFDF1CFC283500D8B028 /* TranslateTableViewController.m */; };
+		06C8AFE91CFC283500D8B028 /* WYNavigationBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8AFE21CFC283500D8B028 /* WYNavigationBarManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C8AF9F1CFBD4A800D8B028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06C8AF7D1CFBD4A700D8B028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C8AF841CFBD4A700D8B028;
+			remoteInfo = WYNavigationBarManager;
+		};
+		06C8AFAA1CFBD4A800D8B028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06C8AF7D1CFBD4A700D8B028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C8AF841CFBD4A700D8B028;
+			remoteInfo = WYNavigationBarManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C8AF851CFBD4A700D8B028 /* WYNavigationBarManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYNavigationBarManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C8AF891CFBD4A700D8B028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06C8AF921CFBD4A700D8B028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06C8AF941CFBD4A700D8B028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06C8AF971CFBD4A700D8B028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06C8AF991CFBD4A800D8B028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C8AF9E1CFBD4A800D8B028 /* WYNavigationBarManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYNavigationBarManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C8AFA21CFBD4A800D8B028 /* WYNavigationBarManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNavigationBarManagerTests.m; sourceTree = "<group>"; };
+		06C8AFA41CFBD4A800D8B028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C8AFA91CFBD4A800D8B028 /* WYNavigationBarManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYNavigationBarManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C8AFAD1CFBD4A800D8B028 /* WYNavigationBarManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNavigationBarManagerUITests.m; sourceTree = "<group>"; };
+		06C8AFAF1CFBD4A800D8B028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C8AFCA1CFBE87C00D8B028 /* headImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headImage.png; sourceTree = "<group>"; };
+		06C8AFD31CFC283500D8B028 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06C8AFD41CFC283500D8B028 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06C8AFD61CFC283500D8B028 /* GradientTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientTableViewController.h; sourceTree = "<group>"; };
+		06C8AFD71CFC283500D8B028 /* GradientTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientTableViewController.m; sourceTree = "<group>"; };
+		06C8AFD81CFC283500D8B028 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		06C8AFD91CFC283500D8B028 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		06C8AFDA1CFC283500D8B028 /* MutationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutationTableViewController.h; sourceTree = "<group>"; };
+		06C8AFDB1CFC283500D8B028 /* MutationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutationTableViewController.m; sourceTree = "<group>"; };
+		06C8AFDC1CFC283500D8B028 /* ReversalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReversalTableViewController.h; sourceTree = "<group>"; };
+		06C8AFDD1CFC283500D8B028 /* ReversalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReversalTableViewController.m; sourceTree = "<group>"; };
+		06C8AFDE1CFC283500D8B028 /* TranslateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateTableViewController.h; sourceTree = "<group>"; };
+		06C8AFDF1CFC283500D8B028 /* TranslateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateTableViewController.m; sourceTree = "<group>"; };
+		06C8AFE11CFC283500D8B028 /* WYNavigationBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNavigationBarManager.h; sourceTree = "<group>"; };
+		06C8AFE21CFC283500D8B028 /* WYNavigationBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationBarManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06C8AF821CFBD4A700D8B028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C8AF9B1CFBD4A800D8B028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C8AFA61CFBD4A800D8B028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C8AF7C1CFBD4A700D8B028 = {
+			isa = PBXGroup;
+			children = (
+				06C8AF871CFBD4A700D8B028 /* WYNavigationBarManager */,
+				06C8AFA11CFBD4A800D8B028 /* WYNavigationBarManagerTests */,
+				06C8AFAC1CFBD4A800D8B028 /* WYNavigationBarManagerUITests */,
+				06C8AF861CFBD4A700D8B028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06C8AF861CFBD4A700D8B028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AF851CFBD4A700D8B028 /* WYNavigationBarManager.app */,
+				06C8AF9E1CFBD4A800D8B028 /* WYNavigationBarManagerTests.xctest */,
+				06C8AFA91CFBD4A800D8B028 /* WYNavigationBarManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06C8AF871CFBD4A700D8B028 /* WYNavigationBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AFD21CFC283500D8B028 /* Other */,
+				06C8AFD51CFC283500D8B028 /* SubViewControllers */,
+				06C8AFE01CFC283500D8B028 /* WYNavigationBarManager */,
+				06C8AF881CFBD4A700D8B028 /* Supporting Files */,
+			);
+			path = WYNavigationBarManager;
+			sourceTree = "<group>";
+		};
+		06C8AF881CFBD4A700D8B028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AF911CFBD4A700D8B028 /* Main.storyboard */,
+				06C8AF941CFBD4A700D8B028 /* Assets.xcassets */,
+				06C8AF961CFBD4A700D8B028 /* LaunchScreen.storyboard */,
+				06C8AF991CFBD4A800D8B028 /* Info.plist */,
+				06C8AFCA1CFBE87C00D8B028 /* headImage.png */,
+				06C8AF891CFBD4A700D8B028 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06C8AFA11CFBD4A800D8B028 /* WYNavigationBarManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AFA21CFBD4A800D8B028 /* WYNavigationBarManagerTests.m */,
+				06C8AFA41CFBD4A800D8B028 /* Info.plist */,
+			);
+			path = WYNavigationBarManagerTests;
+			sourceTree = "<group>";
+		};
+		06C8AFAC1CFBD4A800D8B028 /* WYNavigationBarManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AFAD1CFBD4A800D8B028 /* WYNavigationBarManagerUITests.m */,
+				06C8AFAF1CFBD4A800D8B028 /* Info.plist */,
+			);
+			path = WYNavigationBarManagerUITests;
+			sourceTree = "<group>";
+		};
+		06C8AFD21CFC283500D8B028 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AFD31CFC283500D8B028 /* AppDelegate.h */,
+				06C8AFD41CFC283500D8B028 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		06C8AFD51CFC283500D8B028 /* SubViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AFD61CFC283500D8B028 /* GradientTableViewController.h */,
+				06C8AFD71CFC283500D8B028 /* GradientTableViewController.m */,
+				06C8AFD81CFC283500D8B028 /* MenuViewController.h */,
+				06C8AFD91CFC283500D8B028 /* MenuViewController.m */,
+				06C8AFDA1CFC283500D8B028 /* MutationTableViewController.h */,
+				06C8AFDB1CFC283500D8B028 /* MutationTableViewController.m */,
+				06C8AFDC1CFC283500D8B028 /* ReversalTableViewController.h */,
+				06C8AFDD1CFC283500D8B028 /* ReversalTableViewController.m */,
+				06C8AFDE1CFC283500D8B028 /* TranslateTableViewController.h */,
+				06C8AFDF1CFC283500D8B028 /* TranslateTableViewController.m */,
+			);
+			path = SubViewControllers;
+			sourceTree = "<group>";
+		};
+		06C8AFE01CFC283500D8B028 /* WYNavigationBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				06C8AFE11CFC283500D8B028 /* WYNavigationBarManager.h */,
+				06C8AFE21CFC283500D8B028 /* WYNavigationBarManager.m */,
+			);
+			path = WYNavigationBarManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06C8AF841CFBD4A700D8B028 /* WYNavigationBarManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C8AFB21CFBD4A800D8B028 /* Build configuration list for PBXNativeTarget "WYNavigationBarManager" */;
+			buildPhases = (
+				06C8AF811CFBD4A700D8B028 /* Sources */,
+				06C8AF821CFBD4A700D8B028 /* Frameworks */,
+				06C8AF831CFBD4A700D8B028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYNavigationBarManager;
+			productName = WYNavigationBarManager;
+			productReference = 06C8AF851CFBD4A700D8B028 /* WYNavigationBarManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06C8AF9D1CFBD4A800D8B028 /* WYNavigationBarManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C8AFB51CFBD4A800D8B028 /* Build configuration list for PBXNativeTarget "WYNavigationBarManagerTests" */;
+			buildPhases = (
+				06C8AF9A1CFBD4A800D8B028 /* Sources */,
+				06C8AF9B1CFBD4A800D8B028 /* Frameworks */,
+				06C8AF9C1CFBD4A800D8B028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C8AFA01CFBD4A800D8B028 /* PBXTargetDependency */,
+			);
+			name = WYNavigationBarManagerTests;
+			productName = WYNavigationBarManagerTests;
+			productReference = 06C8AF9E1CFBD4A800D8B028 /* WYNavigationBarManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06C8AFA81CFBD4A800D8B028 /* WYNavigationBarManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C8AFB81CFBD4A800D8B028 /* Build configuration list for PBXNativeTarget "WYNavigationBarManagerUITests" */;
+			buildPhases = (
+				06C8AFA51CFBD4A800D8B028 /* Sources */,
+				06C8AFA61CFBD4A800D8B028 /* Frameworks */,
+				06C8AFA71CFBD4A800D8B028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C8AFAB1CFBD4A800D8B028 /* PBXTargetDependency */,
+			);
+			name = WYNavigationBarManagerUITests;
+			productName = WYNavigationBarManagerUITests;
+			productReference = 06C8AFA91CFBD4A800D8B028 /* WYNavigationBarManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06C8AF7D1CFBD4A700D8B028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "徐悟源";
+				TargetAttributes = {
+					06C8AF841CFBD4A700D8B028 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					06C8AF9D1CFBD4A800D8B028 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 06C8AF841CFBD4A700D8B028;
+					};
+					06C8AFA81CFBD4A800D8B028 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 06C8AF841CFBD4A700D8B028;
+					};
+				};
+			};
+			buildConfigurationList = 06C8AF801CFBD4A700D8B028 /* Build configuration list for PBXProject "WYNavigationBarManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06C8AF7C1CFBD4A700D8B028;
+			productRefGroup = 06C8AF861CFBD4A700D8B028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06C8AF841CFBD4A700D8B028 /* WYNavigationBarManager */,
+				06C8AF9D1CFBD4A800D8B028 /* WYNavigationBarManagerTests */,
+				06C8AFA81CFBD4A800D8B028 /* WYNavigationBarManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06C8AF831CFBD4A700D8B028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C8AF981CFBD4A700D8B028 /* LaunchScreen.storyboard in Resources */,
+				06C8AF951CFBD4A700D8B028 /* Assets.xcassets in Resources */,
+				06C8AFCB1CFBE87C00D8B028 /* headImage.png in Resources */,
+				06C8AF931CFBD4A700D8B028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C8AF9C1CFBD4A800D8B028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C8AFA71CFBD4A800D8B028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C8AF811CFBD4A700D8B028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C8AFE61CFC283500D8B028 /* MutationTableViewController.m in Sources */,
+				06C8AFE41CFC283500D8B028 /* GradientTableViewController.m in Sources */,
+				06C8AFE81CFC283500D8B028 /* TranslateTableViewController.m in Sources */,
+				06C8AFE91CFC283500D8B028 /* WYNavigationBarManager.m in Sources */,
+				06C8AFE31CFC283500D8B028 /* AppDelegate.m in Sources */,
+				06C8AFE71CFC283500D8B028 /* ReversalTableViewController.m in Sources */,
+				06C8AF8A1CFBD4A700D8B028 /* main.m in Sources */,
+				06C8AFE51CFC283500D8B028 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C8AF9A1CFBD4A800D8B028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C8AFA31CFBD4A800D8B028 /* WYNavigationBarManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C8AFA51CFBD4A800D8B028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C8AFAE1CFBD4A800D8B028 /* WYNavigationBarManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C8AFA01CFBD4A800D8B028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06C8AF841CFBD4A700D8B028 /* WYNavigationBarManager */;
+			targetProxy = 06C8AF9F1CFBD4A800D8B028 /* PBXContainerItemProxy */;
+		};
+		06C8AFAB1CFBD4A800D8B028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06C8AF841CFBD4A700D8B028 /* WYNavigationBarManager */;
+			targetProxy = 06C8AFAA1CFBD4A800D8B028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06C8AF911CFBD4A700D8B028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C8AF921CFBD4A700D8B028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06C8AF961CFBD4A700D8B028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C8AF971CFBD4A700D8B028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06C8AFB01CFBD4A800D8B028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06C8AFB11CFBD4A800D8B028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06C8AFB31CFBD4A800D8B028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYNavigationBarManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wuyuan.WYNavigationBarManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06C8AFB41CFBD4A800D8B028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYNavigationBarManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wuyuan.WYNavigationBarManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06C8AFB61CFBD4A800D8B028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYNavigationBarManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wuyuan.WYNavigationBarManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNavigationBarManager.app/WYNavigationBarManager";
+			};
+			name = Debug;
+		};
+		06C8AFB71CFBD4A800D8B028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYNavigationBarManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wuyuan.WYNavigationBarManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNavigationBarManager.app/WYNavigationBarManager";
+			};
+			name = Release;
+		};
+		06C8AFB91CFBD4A800D8B028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYNavigationBarManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wuyuan.WYNavigationBarManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYNavigationBarManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		06C8AFBA1CFBD4A800D8B028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYNavigationBarManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wuyuan.WYNavigationBarManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYNavigationBarManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C8AF801CFBD4A700D8B028 /* Build configuration list for PBXProject "WYNavigationBarManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C8AFB01CFBD4A800D8B028 /* Debug */,
+				06C8AFB11CFBD4A800D8B028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C8AFB21CFBD4A800D8B028 /* Build configuration list for PBXNativeTarget "WYNavigationBarManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C8AFB31CFBD4A800D8B028 /* Debug */,
+				06C8AFB41CFBD4A800D8B028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C8AFB51CFBD4A800D8B028 /* Build configuration list for PBXNativeTarget "WYNavigationBarManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C8AFB61CFBD4A800D8B028 /* Debug */,
+				06C8AFB71CFBD4A800D8B028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C8AFB81CFBD4A800D8B028 /* Build configuration list for PBXNativeTarget "WYNavigationBarManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C8AFB91CFBD4A800D8B028 /* Debug */,
+				06C8AFBA1CFBD4A800D8B028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06C8AF7D1CFBD4A700D8B028 /* Project object */;
+}
